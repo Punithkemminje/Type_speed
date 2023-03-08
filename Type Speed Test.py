@@ -12,7 +12,7 @@ window.resizable(False,False)
 window.config(bg=bk_clr)
 
 # --------------------------- To get random word from text file ----------------------#
-with open('Document/word.txt' , 'r') as data :
+with open('word.txt' , 'r') as data :
     words = data.read()
     word_list = words.split("\n")
 def get_words() :
